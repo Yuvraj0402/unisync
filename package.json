@@ -1,0 +1,23 @@
+{
+  "name": "unisync-university-management",
+  "version": "1.0.0",
+  "description": "UniSync – Smart University Student and Teacher Management System (MERN Stack with Firebase)",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npx concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "unisync",
+    "university-management",
+    "student-risk-detection",
+    "deadline-clash-detector",
+    "faculty-appointment-system",
+    "firebase",
+    "react",
+    "express"
+  ],
+  "author": "UniSync Academic Nexus",
+  "license": "MIT"
+}
